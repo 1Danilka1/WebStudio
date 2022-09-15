@@ -93,7 +93,9 @@ body {
 /* block_1 */
 .advertising {
     height: 600px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(./img_3.1.jpg);
+    width: 1600px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(./hero.jpg);
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
