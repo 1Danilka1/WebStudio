@@ -261,12 +261,11 @@ body {
     flex-direction: row;
 }
 
-.icon svg {
+/* .icon svg {
     height: 44px;
     width: 44px;
     margin-right: 10px;
-    /* margin-bottom: 25px; */
-}
+} */
 
 .svg_1 {
     margin-left: 32px;
@@ -342,8 +341,6 @@ body {
 }
 
 .svg_I {
-    width: 44px;
-    height: 49px;
     padding: 20px 63px 21px 63px;
     margin-left: 215px;
 }
@@ -412,7 +409,7 @@ body {
     margin-top: 72px;
 }
 
-.join .svg_li_2 {
+.svg_li_2 {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -420,7 +417,7 @@ body {
     margin-right: 10px;
 }
 
-.join ul {
+.footer_list_icon {
     display: flex;
     flex-direction: row;
 } 
