@@ -8,9 +8,11 @@ p {
   margin: 0;
   padding: 0;
 }
+
 a{
     text-decoration: none;
 }
+
 ul {
   padding-left: 0;
   list-style: none;
@@ -22,6 +24,11 @@ body {
     width: 1600px;
 }
 
+/* svg {
+    width: 100px;
+    height: 100px;
+} */
+                                                            /* header */
 .page-header {
     height: 80px;
     border-bottom: 1px solid #ececee;
@@ -143,7 +150,7 @@ body {
     height: 16px;
     display: flex;
     flex-direction: row;
-    margin: 94px 30px 0 0;
+    margin: 30px 30px 0 0;
 }
 
 .text {
@@ -173,33 +180,39 @@ body {
     margin-top: 94px;
     background-color: #F5F4FA;
     border-radius: 4px;
-    height: 120px;
-    width: 270px;
+    height: 70px;
+    width: 70px;
+    padding: 25px 100px;
+
 }
 
 .svg_second {
     margin-top: 94px;
     background-color: #F5F4FA;
     border-radius: 4px;
-    width: 270px;
-    height: 120px;
+    height: 70px;
+    width: 70px;
+    padding: 25px 100px;
 }
 
 .svg_third {
     margin-top: 94px;
     background-color: #F5F4FA;
     border-radius: 4px;
-    width: 270px;
-    height: 120px;
+    height: 70px;
+    width: 70px;
+    padding: 25px 100px;
 }
 
 .svg_fourth {
     margin-top: 94px;
     background-color: #F5F4FA;
     border-radius: 4px;
-    width: 270px;
-    height: 120px;
+    height: 70px;
+    width: 70px;
+    padding: 25px 100px;
 }
+
                                                             /* image */
                                                             
 .what_we_do_2 h2 {
@@ -227,7 +240,7 @@ body {
 .icon {
     margin-top: 94px;
     background-color: #F5F4FA;
-    height: 648px;
+    height: 708px;
 }
 .icon ul {
     display: flex;
@@ -243,24 +256,39 @@ body {
     font-weight: 700;
 }
 
+.ul_svg {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon svg {
+    height: 44px;
+    width: 44px;
+    margin-right: 10px;
+    /* margin-bottom: 25px; */
+}
+
+.svg_1 {
+    margin-left: 32px;
+}
+
 .icon img {
     width: 270px;
 }
 
-.icon li {
-    margin: 50px 30px 94px 0;
+.icon .icon_li {
+    margin: 50px 30px 94px 0;   
     background: #FFFFFF;    
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    
 
 }
 
 .icon .li_first_o {
-    margin-left: 210px;
+    margin-left: 215px;
 }
 
-.icon li {
+.icon .icon_li {
     width: 270px;
 }
 
@@ -272,6 +300,10 @@ body {
     margin: 30px 0 10px 0;
 }
 
+.icon .pp {
+    font-size: 1px;
+}
+
 .icon p {
     color: #757575;
     font-family: 'Roboto';
@@ -279,14 +311,76 @@ body {
     text-align: center;
     margin: 0 0 30px 0px;
 }
+                                                        /* Clients */
+.clients h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin-top: 94px;
+}
 
+.clients ul {
+    display: flex;
+    flex-direction: row;
+}
 
+.clients svg {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+.clients svg {
+    fill: #afb1b8;
+}
+.clients svg:hover {
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+}
+
+.svg_I {
+    width: 44px;
+    height: 49px;
+    padding: 20px 63px 21px 63px;
+    margin-left: 215px;
+}
+
+.svg_II {
+    width: 40px;
+    height: 52px;
+    padding: 19px 65px;
+}
+
+.svg_III {
+    width: 41px;
+    height: 43px;
+    padding: 24px 64px 24px 65px;
+}
+
+.svg_IV {
+    width: 80px;
+    height: 42px;
+    padding: 24px 45px;
+}
+
+.svg_V {
+    width: 59px;
+    height: 47px;
+    padding: 22px 55px 21px 56px;
+}
+
+.svg_VI {
+    width: 88px;
+    height: 45px;
+    padding: 22px 41px 23px 41px;
+}
                                                         /* footer */
 .the_end{
     height: 252px;
     background-color: #2F303A;  
-    /* display: flex;
-    align-items: center; */
 }
 
 .the_end .zxc {
@@ -303,16 +397,51 @@ body {
     margin-top: 60px;
 }
 
-.the_end li {
+/* .the_end li {
     margin-top: 9px;
-}
+} */
 
 .the_end .logo {
     margin-left: 215px; 
     display: flex;
     align-items: center;
 }
+                                                                    /* join */
+.join {
+    margin-left: 70px;
+    margin-top: 72px;
+}
 
+.join .svg_li_2 {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+}
 
+.join ul {
+    display: flex;
+    flex-direction: row;
+} 
 
+.the_end .footer_ul {
+    display: flex;
+    flex-direction: row;
+}
 
+.join h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.svg_icon {
+
+}
