@@ -267,9 +267,9 @@ body {
     margin-right: 10px;
 } */
 
-.svg_1 {
+/* .svg_1 {
     margin-left: 32px;
-}
+} */
 
 .icon img {
     width: 270px;
@@ -380,23 +380,24 @@ body {
     background-color: #2F303A;  
 }
 
-.the_end .zxc {
+.the_end .adress {
     color: #FFFFFF;
     font-size: 14px;
     font-family: 'Roboto';
+    margin-left: 215px;
+}
+
+.information {
+    margin-left: 215px;
 }
 
 .the_end a {
-    margin-left: 215px;
+    /* margin-left: 215px; */
     color: #FFFFFF99;
     font-size: 14px;
     font-family: 'Roboto';
     margin-top: 60px;
 }
-
-/* .the_end li {
-    margin-top: 9px;
-} */
 
 .the_end .logo {
     margin-left: 215px; 
