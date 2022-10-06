@@ -248,18 +248,21 @@ body {
     height: 20px;
 }
 
-.icon ul {
+
+.icon_team_list {
     display: flex;
     flex-direction: row;
 }
 
-.icon use {
+.icon svg {
     fill: #AFB1B8;
+    width: 20px;
+    height: 20px;
 }
 
-.icon use:hover {
+/* .icon use:hover {
     fill: #FFFFFF;
-}
+} */
 
 .li_svg {
     width: 44px;
@@ -274,10 +277,15 @@ body {
 .li_svg:hover {
     background-color: #2196F3;
     border-radius: 50%;
+    fill: #FFFFFF;
+}
+
+.icon svg:hover {
+    fill: #FFFFFF;
 }
 
 .li_svg:nth-child(1) {
-    margin-left: 35px;
+    margin-left: 32px;
 }
 
 .our_team {
@@ -303,11 +311,6 @@ body {
     background: #FFFFFF;    
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
-
-.icon svg {
-    width: 20px;
-    height: 20px;
 }
 
 .icon .li_first_o {
