@@ -496,7 +496,7 @@ body {
     fill: #FFFFFF;
 } */
 
- @media screen and (min-width: 480px) {
+ @media screen and (min-width: 100px) {
     h1,
     h2,
     h3,
