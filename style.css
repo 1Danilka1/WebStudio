@@ -654,5 +654,174 @@ body {
         margin-top: 60px;
     }
 
+    .svg_second {
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        height: 70px;
+        width: 70px;
+        padding: 25px 192px;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
 
+    .svg_third {
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        height: 70px;
+        width: 70px;
+        padding: 33px 190px;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    .svg_fourth {
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        height: 70px;
+        width: 70px;
+        padding: 25px 190px;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    .what_we_do_2 {
+        display: none;
+    }
+
+    .icon {
+        height: 2711px;
+        background-color: #F5F4FA;
+    }
+
+    .icon img {
+        width: 450px;
+        height: 460px;
+    }
+
+    .our_team {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin-top: 60px;
+    }
+
+    .pp {
+        font-size: 1px;
+        margin-top: 60px;
+    }
+
+    .icon .icon_li {  
+        background: #FFFFFF;    
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        margin-bottom: 30px;
+        width: 450px;
+        margin-left: 15px;
+    }
+
+    .icon_team_list {
+        padding: 0;
+        margin: 0;
+    }
+
+    .icon h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+
+    .icon p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+    .ul_svg {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+
+    .li_svg {
+        height: 44px;
+        width: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        margin-bottom: 24px;
+    }
+
+    .li_svg:nth-child(1) {
+        margin-left: 122px;
+    }
+
+    .icon svg {
+        width: 20px;
+        height: 20px;
+        fill: #AFB1B8;
+    }
+
+    .clients h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin-top: 60px;
+    }
+
+    .clients_ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .clients svg {
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        fill: #AFB1B8;
+    }
+
+    .svg_I {
+        padding: 20px 83px 21px 83px;
+    }
+
+    .svg_II {
+            padding: 19px 85px;
+    }
+
+    .svg_III {
+        padding: 24px 84px 24px 85px;
+    }
+
+    .svg_IV {
+        padding: 24px 65px;
+    }
+
+    .svg_V {
+        padding: 25px 75px 21px 76px;
+    }
+
+    .svg_VI {
+        padding: 22px 61px 21px 61px;
+    }
  }
