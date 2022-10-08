@@ -1,4 +1,4 @@
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -24,11 +24,8 @@ body {
     width: 1600px;
 }
 
-/* svg {
-    width: 100px;
-    height: 100px;
-} */
-                                                            /* header */
+
+
 .page-header {
     height: 80px;
     border-bottom: 1px solid #ececee;
@@ -88,16 +85,21 @@ body {
     color: #757575;
     margin: 0 50px 0 0;
     font-size: 14px;
+    fill: #757575;
 }
 
 .add_info a:hover {
     color: #2196F3;
+    fill: #2196F3;
+}
+
+.add_info svg {
+    margin-right: 10px;
 }
 
 
 
-                                                             /* main */
-/* block_1 */
+
 .advertising {
     height: 600px;
     width: 1600px;
@@ -135,7 +137,8 @@ body {
 }
 
 
-                                                            /* block_2 */
+                                                     
+
 .what_we_do .ul_2 {
     display: flex;
     flex-direction: row;
@@ -169,7 +172,6 @@ body {
 
 .info {
     margin: 0 0 0 215px;
-    /* margin-top: 244px; */
 }
 
 .info_x {
@@ -213,7 +215,8 @@ body {
     padding: 25px 100px;
 }
 
-                                                            /* image */
+
+
                                                             
 .what_we_do_2 h2 {
     text-align: center;
@@ -236,7 +239,7 @@ body {
     margin-right: 210px;
 }
 
-                                                              /* icon */
+
 .icon {
     margin-top: 94px;
     background-color: #F5F4FA;
@@ -260,9 +263,8 @@ body {
     height: 20px;
 }
 
-/* .icon use:hover {
-    fill: #FFFFFF;
-} */
+
+
 
 .li_svg {
     width: 44px;
@@ -340,7 +342,10 @@ body {
     text-align: center;
     margin: 0 0 16px 0px;
 }
-                                                        /* Clients */
+
+
+
+
 .clients h2 {
     text-align: center;
     font-size: 36px;
@@ -404,7 +409,9 @@ body {
     height: 45px;
     padding: 22px 41px 23px 41px;
 }
-                                                        /* footer */
+
+
+
 .the_end{
     height: 252px;
     background-color: #2F303A;  
@@ -440,7 +447,9 @@ body {
 .dec a {
     margin-top: 60px;
 }
-                                                                    /* join */
+
+
+
 .join {
     margin-left: 70px;
     margin-top: 72px;
@@ -485,4 +494,165 @@ body {
 
 .join use {
     fill: #FFFFFF;
-}
+} */
+
+ @media screen and (min-width: 480px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p 
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .add_info {
+        display: none;
+    }
+
+    .page-header {
+        height: 60px;
+        border-bottom: 1px solid #ececee;
+    }
+
+    .web {
+        color: #2196F3;
+        font-size: 24px;
+        font-family: 'Raleway';
+        font-weight: 700;
+        margin-left: 15px;
+    }
+    
+    .studio {
+        color: #000000;
+        font-size: 24px;
+        font-family: 'Raleway';
+        font-weight: 700;
+        margin-right: 284px;
+    }
+
+    .header_navigation {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .li_navigation {
+        height: 28px;
+        margin-top: 16px;
+    }
+
+    .li_navigation:nth-child(2) {
+        margin-top: 22px;
+    }
+
+    .svg_navigation:active {
+        fill: #2196F3;
+    }
+
+    .advertising {
+        display: none;
+    }
+
+    .advertising_m {
+        height: 400px;
+        width: 480px;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(./hero_mobile.jpg);
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .advertising_m h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+
+    .fishnet {
+        border: 1px solid #2196F3;
+        padding: 10px 24px 10px 24px;
+        background-color: #2196F3;
+        border-radius: 4px;
+        color: #FFFFFF;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        font-size: 16px;
+        font-family: 'Roboto';
+        margin-left: 53px;
+    }
+
+    .ul_2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+        margin-top: 30px;
+    }
+
+    .text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+        margin-left: 15px;
+    }
+
+    .svg_first {
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        height: 70px;
+        width: 70px;
+        padding: 25px 192px;
+        margin-left: 15px;
+        margin-top: 60px;
+    }
+
+
+ }
