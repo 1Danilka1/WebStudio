@@ -494,7 +494,7 @@ body {
     fill: #FFFFFF;
 } */
 
- @media screen and (min-width: 100px) {
+ @media screen and (min-width: 320px) {
     h1,
     h2,
     h3,
@@ -577,7 +577,7 @@ body {
         display: none;
     }
 
-    .advertising_m {
+    .advertising_mobile {
         height: 400px;
         width: 480px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(./hero_mobile.jpg);
@@ -587,7 +587,7 @@ body {
         align-items: center;
     }
 
-    .advertising_m h1 {
+    .advertising_mobile h1 {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -689,7 +689,7 @@ body {
     .icon {
         height: 2721px;
         background-color: #F5F4FA;
-        width: 100vh;
+        /* width: 100vh; */
     }
 
     .icon img {
@@ -708,7 +708,9 @@ body {
         color: #212121;
         margin-top: 60px;
         margin-bottom: 30px;
-        margin-right: 137px;
+        /* margin-right: 137px; */
+        display: flex;
+        justify-content: center;
     }
 
     .pp {
@@ -880,6 +882,8 @@ body {
     .dec ul {
         margin: 0;
         padding: 0;
+        /* display: flex;
+        justify-content: center; */
     }
 
     .adress {
@@ -890,6 +894,8 @@ body {
         line-height: 24px;
         letter-spacing: 0.03em;
         color: #FFFFFF;
+        /* display: flex;
+        justify-content: center; */
         margin-left: 124px;
     }
 
@@ -901,6 +907,8 @@ body {
         line-height: 24px;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
+        /* display: flex;
+        justify-content: center; */
         margin-left: 167px;
     }
 
@@ -914,7 +922,9 @@ body {
         text-transform: uppercase;
         color: #FFFFFF;
         margin-top: 60px;
-        margin-left: 167px;
+        display: flex;
+        justify-content: center;
+        /* margin-left: 167px; */
         margin-bottom: 20px;
     }
 
