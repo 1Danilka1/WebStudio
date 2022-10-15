@@ -712,7 +712,6 @@ body {
         color: #212121;
         margin-top: 60px;
         margin-bottom: 30px;
-        /* margin-right: 137px; */
         display: flex;
         justify-content: center;
     }
@@ -1183,7 +1182,57 @@ body {
         width: 342px;
     }
 
+    .our_team {
+        margin-top: 45px;
+    }
 
+    .icon_team_list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pp {
+        color: #F5F4FA;
+    }
+
+    .icon {
+        height: 1285px;
+    }
+
+    .icon_li h3 {
+        margin-top: 34px;
+    }
+
+    .icon_li p {
+        margin-top: 14px;
+        margin-bottom: 17px;
+    }
+
+    .icon img {
+        width: 354px;
+        height: 374px;
+    }
+
+    .icon .icon_li {
+        width: 354px;
+    }
+
+    .li_svg:nth-child(1) {
+        margin: 0;
+        margin-right: 10px;
+        margin-left: 74px;
+    }
+
+    .clients_li {
+        margin: 0;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .clients_position {
+        margin-left: 15px;
+    }
+    
 }
 
 
