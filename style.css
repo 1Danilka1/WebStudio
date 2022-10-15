@@ -587,6 +587,10 @@ body {
         align-items: center;
     }
 
+    .advertising_tablet {
+        display: none;
+    }
+
     .advertising_mobile h1 {
         font-family: 'Roboto';
         font-style: normal;
@@ -1000,6 +1004,10 @@ body {
     }
 }
 
+
+
+
+
 @media screen and (min-width: 768px) {
     h1,
     h2,
@@ -1044,9 +1052,145 @@ body {
     .li_navigation_svg {
         display: none;
     }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ul_menu {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu a {
+        color: #212121;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 500;
+        margin-right: 57px;
+    }
+    
+    .menu a:hover {
+        color: #2196F3;
+    }
+
+    .add_info {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .add_info ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .add_info_li{
+        margin-right: 17px;
+        margin-bottom: 12px;
+    }
+
+    .add_info a {
+        font-family: 'Roboto';
+        color: #757575;
+        font-size: 14px;
+        fill: #757575;
+    }
+    
+    .add_info a:hover {
+        color: #2196F3;
+        fill: #2196F3;
+    }
+                                                                /* main */
+    .advertising_mobile {
+        display: none;
+    }
+
+    .advertising {
+        display: none;
+    }
+
+    .advertising_tablet {
+        display: flex;
+        height: 400px;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(./hero_tablet.png);
+    }
+
+    .advertising_tablet h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 230px;
+        margin-top: 128px;
+        margin-bottom: 37px;
+    }
+
+    .fishnet {
+        margin: 0;
+        margin-left: 284px;
+    }
+
+    .ul_2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+
+    .info {
+        margin-right: 30px;
+        margin-left: 15px;
+        margin-bottom: 37px;
+    }
+
+    .svg_first {
+        padding: 25px 144px;
+        margin: 0;
+    }
+
+    .svg_second {
+        padding: 25px 144px;
+        margin: 0;
+    }
+
+    .svg_third {
+        padding: 33px 142px;
+        margin: 0;
+    }
+
+    .svg_fourth {
+        padding: 33px 142px;
+        margin: 0;
+    }
+
+    .title {
+        margin-top: 31px;
+    }
+
+    .text {
+        text-align: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 19px;
+        width: 342px;
+    }
+
+
 }
 
-@media screen and (min-width: 1600px) {
+
+
+
+
+/* @media screen and (min-width: 1600px) {
     h1,
 h2,
 h3,
@@ -1542,4 +1686,4 @@ body {
 .join use {
     fill: #FFFFFF;
 }
-}
+} */
