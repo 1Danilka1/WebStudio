@@ -1232,6 +1232,66 @@ body {
     .clients_position {
         margin-left: 15px;
     }
+
+    .footer_div {
+        margin: 0;
+    }
+    
+    .the_end {
+        height: 463px;
+    }
+
+    .footer_ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo_footer {
+        margin: 64px;
+    }
+
+    .join {
+        margin-right: 89px;
+    }
+
+    .join h3 {
+        margin-top: 65px;
+    }
+
+    .adress, .information {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .dec {
+        margin-left: 89px;
+        width: 204px;
+        text-align: center;
+    }
+
+    .mailing h2 {
+        margin-top: 66px;
+    }
+
+    .e-mail {
+        margin: 0;
+        margin-top: 21px;
+    }
+
+    .subscribe {
+        margin: 0;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mailing_ul {
+        display: flex;
+        justify-content: center;
+    }
+
     
 }
 
