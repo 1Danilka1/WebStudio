@@ -1,4 +1,4 @@
- @media screen and (min-width: 480px) {
+ @media screen and (min-width: 320px) {
     h1,
     h2,
     h3,
@@ -152,8 +152,15 @@
         line-height: 24px;
         letter-spacing: 0.03em;
         color: #757575;
-        margin-left: 15px;
     }
+
+    /* .text_position {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+    } */
 
     .svg_first {
         background-color: #F5F4FA;
@@ -510,6 +517,10 @@
     .subscribe svg {
         margin-left: 12px;
     }
+
+    .mailing_ul {
+        padding: 0;
+    }
 }
 
 
@@ -824,7 +835,9 @@
     }  
 }
 
-@media screen and (min-width: 1600px) {
+
+
+@media screen and (min-width: 1024px) {
     .li_navigation {
         margin-top: 24px;
         margin-left: 215px;
