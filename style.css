@@ -1001,16 +1001,17 @@
     }
 
     .mailing_ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }  
 }
 
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
     .li_navigation {
         margin-top: 24px;
         margin-left: 215px;
@@ -1020,6 +1021,10 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+
+    .ul_menu {
+        margin-left: 93px;
     }
 
     .ul_menu a {
