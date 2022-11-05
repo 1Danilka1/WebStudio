@@ -25,15 +25,20 @@ body {
 }
                                                                         /* header */
 .header {
-    height: 80px;
+    height: 60px;
     border-bottom: 1px solid #ececee;
+    margin-bottom: 60px;
+}
+
+.menu, .add_info {
+    display: none;
 }
 
 .contanier {
+    margin: 0;
     display: flex;
-    justify-content: space-around;
-    margin: 0%;
-    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .web {
@@ -69,7 +74,13 @@ body {
 }
 
 .li_navigation {
-    margin-top: 25px;
+    margin-top: 16px;
+    margin-left: 15px;
+}
+
+.li_navigation_svg {
+    margin-top: 22px;
+    margin-right: 23px;
 }
 
 .add_info ul {
@@ -98,9 +109,11 @@ body {
 .navigation_site {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 94px;
-    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.navigation_site li {
+    margin-bottom: 15px;
 }
 
 .navigation_site_a {   
@@ -116,6 +129,11 @@ body {
     color: #212121;
     padding: 6px 23px;
     margin-right: 8px;
+    margin-bottom: 15px;
+}
+
+.navigation_site .nav_site_pos {
+    margin-left: 15px;  
 }
 
 .navigation_site_a:hover {
@@ -125,11 +143,22 @@ body {
 }
 
 .images {
-    display: flex;
-    flex-direction: row;
+    display: none;
 }
 
-.li_images h2 {
+.li_images_mobile {
+    width: 450px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.li_images_mobile_pos {
+    margin-bottom: 60px;
+}
+
+.li_images_mobile h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -140,7 +169,7 @@ body {
     margin: 20px 0 4px 24px;
 }
 
-.li_images p {
+.li_images_mobile p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -151,94 +180,72 @@ body {
     margin: 0 0 20px 24px;
 }
 
-.li_images {
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    width: 370px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
 
-.li_images:nth-child(1) {
-    margin-left: 215px;
-}
-
-.position {
-    margin-bottom: 50px;
-}
-
-.images img {
-    width: 370px;
-    height: 294px;
-}
                                                             /* footer */
-.the_end{
-    height: 252px;
-    background-color: #2F303A;  
+footer {
+      height: 603px;
+    width: 480px;   
+    background-color: #2F303A;
 }
 
-.the_end .adress {
-    color: #FFFFFF;
-    font-size: 14px;
-    font-family: 'Roboto';
-    margin-left: 215px;
+.footer_ul {
+    margin: 0;
+    padding: 0;
 }
 
-.information {
-    margin-left: 215px;
+.web_footer {
+    color: #2196F3;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: 700;
 }
-
-.li_information {
-    margin-bottom: 9px;
+                                                        
+.studio_footer {
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: 700;
 }
-
-.the_end a {
-    color: #FFFFFF99;
-    font-size: 14px;
-    font-family: 'Roboto';
-}
-
-.the_end .logo {
-    margin-left: 215px; 
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.dec a {
-    margin-top: 50px;
-}
-
-.join {
-    margin-left: 70px;
-    margin-top: 72px;
-}
-
-.svg_li_2 {
-    width: 44px;    
-    height: 44px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-right: 10px;
+                                                        
+.logo_footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
-
-.svg_li_2:hover {
-    background-color: #2196F3;
+                                                        
+.pp {
+    font-size: 1px;
+    margin: 0;
+    padding: 0;
 }
-
-.footer_list_icon {
-    display: flex;
-    flex-direction: row;
-} 
-
-.the_end .footer_ul {
-    display: flex;
-    flex-direction: row;
+                                                        
+.dec ul {
+    margin: 0;
+    padding: 0;
 }
-
+.adress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-left: 124px;
+}
+                                                        
+.information {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 167px;
+}
+                                                        
 .join h3 {
     font-family: 'Roboto';
     font-style: normal;
@@ -248,9 +255,83 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
 }
-
-.join use {
+                                                        
+.footer_list_icon {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+                                                        
+.join svg {
     fill: #FFFFFF;
+}
+                                                        
+.svg_li_2 {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+                                                        
+.mailing h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+                                                        
+.e-mail {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    width: 450px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+                                                        
+.subscribe {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 4px;
+    width: 169px;
+    height: 50px;
+    padding-left: 31px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+                                                        
+.subscribe svg {
+    margin-left: 12px;
+}
+                                                        
+.mailing_ul {
+    padding: 0;
 }
