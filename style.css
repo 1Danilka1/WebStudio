@@ -147,6 +147,10 @@
         margin: 0;
     }
 
+    .ul_2_tablet {
+        display: none;
+    }
+
     .title {
         font-family: 'Roboto';
         font-style: normal;
@@ -169,14 +173,6 @@
         letter-spacing: 0.03em;
         color: #757575;
     }
-
-    /* .text_position {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        flex-direction: column; 
-    } */
 
     .svg_first {
         background-color: #F5F4FA;
@@ -383,7 +379,7 @@
 
     footer {
         height: 603px;
-        width: 480px;   
+        width: 100%;   
         background-color: #2F303A;
     }
 
@@ -611,7 +607,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* height: 80px; */
     }
 
     .ul_menu {
@@ -774,51 +769,6 @@
         width: 342px;
     }
 
-    /* .ul_2 {
-        display: flex;
-        flex-flow: row wrap;
-        margin-top: 60px;
-    }
-
-    .info {
-        width: 354px;
-        margin-right: 30px;
-        margin-left: 15px;
-        margin-bottom: 37px;
-    }
-
-    .svg_first {
-        padding: 25px 144px;
-        margin: 0;
-    }
-
-    .svg_second {
-        padding: 25px 144px;
-        margin: 0;
-    }
-
-    .svg_third {
-        padding: 33px 142px;
-        margin: 0;
-    }
-
-    .svg_fourth {
-        padding: 33px 142px;
-        margin: 0;
-    }
-
-    .title {
-        margin-top: 31px;
-    }
-
-    .text {
-        text-align: none;
-        padding: 0;
-        margin: 0;
-        margin-top: 19px;
-        width: 342px;
-    } */
-
     .our_team {
         margin-top: 45px;
     }
@@ -944,6 +894,7 @@
 
     .the_end {
         width: 768px;
+        width: 100%;
     }
 
     .footer_div {
@@ -1084,16 +1035,26 @@
         margin:40px 200px 0 200px;
     }
 
+    .ul_2_tablet {
+        display: none;
+    }
+
+    .what_we_do {
+        display: block;
+    }
+
     .ul_2 {
         display: flex;
         flex-direction: row;
-        margin-top: 94px;
+        flex-wrap: nowrap;
     }
 
     .info {
         width: 270px;
         margin-left: 0;
         margin-bottom: 0;
+        margin-right: 30px;
+        margin-top: 94px;
     }
 
     .info_x {
@@ -1179,9 +1140,18 @@
         margin-left: 215px;
     }
 
-    .clients_li {
+    .clients .clients_li {
         margin: 0;
         margin-right: 30px;
+    }
+
+    .clients .clients_li_pos {
+        margin-left: 215px;
+        margin-bottom: 94px;
+    }
+
+    .clients_li_position {
+        margin: 0;
     }
 
     .clients_ul {
@@ -1216,13 +1186,14 @@
     .svg_VI {
         padding: 22px 40px;
     }
-
+/* =========================================================footer============================================================================= */
     .mailing {
         display: none;
     }
 
     .the_end {
         height: 252px;
+        width: 100%;
     }
 
     .footer_ul {
