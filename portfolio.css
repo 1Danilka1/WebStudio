@@ -23,22 +23,25 @@ body {
     margin: 0;
     /* width: 1600px; */
 }
-                                                                        /* header */
+/*=========================================================== header ==============================================================================*/
 .header {
     height: 60px;
     border-bottom: 1px solid #ececee;
     margin-bottom: 60px;
 }
 
-.menu, .add_info {
+.contanier {
     display: none;
 }
 
-.contanier {
-    margin: 0;
+.contanier_mobile {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.li_navigation_mobile {
+    margin-top: 16px;
 }
 
 .web {
@@ -105,7 +108,7 @@ body {
 .add_info svg {
     margin-right: 10px;
 }
-                                                                    /* main */
+/*================================================================= main ==========================================================================*/
 .navigation_site {
     display: flex;
     flex-direction: row;
@@ -181,7 +184,7 @@ body {
 }
 
 
-                                                            /* footer */
+/*=========================================================== footer ==============================================================================*/
 footer {
       height: 603px;
     width: 480px;   
@@ -336,8 +339,166 @@ footer {
     padding: 0;
 }
 
-@media screen and(min-width:768px) {
-    .navigation {
+@media screen and (min-width:768px) {
+/* ======================================================= header ========================================================================== */
+    .contanier_mobile {
         display: none;
     }
+
+    .header {
+        height: 80px;
+    }
+
+    .contanier {
+        height: 80px;
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .li_navigation {
+        margin-top: 30px;
+    }
+
+    .menu a {
+        margin: 0;
+    }
+
+    .menu .menu_ul {
+        margin: 0;
+        margin-top: 34px;
+    }
+
+    .menu .menu_a {
+        margin: 0;
+        margin-right: 57px;
+    }
+
+    .add_info .add_info_ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 23px;
+    }
+
+    .add_info a {
+        margin: 0;
+    }
+/* ============================================================== main ====================================================================== */
+    .navigation_site {
+        display: flex;
+        justify-content: center;
+        height: 31px;
+        margin-bottom: 30px;
+    }
+
+    .images_mobile {
+        display: none;
+    }
+
+    .images_tablet {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .li_images_tablet {
+        width: 354px;
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        margin-bottom: 30px;
+    }
+
+    .images_tablet h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        color: #212121;
+        margin: 20px 0 4px 24px;
+    }
+
+    .images_tablet p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        color: #757575;
+        margin: 0 0 20px 24px;  
+    }
+
+    .li_images_tablet_pos {
+        margin: 0 30px 30px 15px;
+    }
+/* =================================================== footer ====================================================================================== */
+.the_end {
+    width: 100%;
+}
+
+.footer_div {
+    margin: 0;
+}
+
+.the_end {
+    height: 483px;
+}
+
+.footer_ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.logo_footer {
+    margin: 64px;
+}
+
+.join {
+    margin-right: 89px;
+}
+
+.join h3 {
+    margin-top: 65px;
+}
+
+.adress, .information {
+    margin: 0;
+    font-size: 13px;
+}
+
+.dec {
+    margin-left: 89px;
+    width: 204px;
+    text-align: center;
+}
+
+.mailing h2 {
+    margin-top: 66px;
+}
+
+.e-mail {
+    margin: 0;
+    margin-top: 21px;
+}
+
+.subscribe {
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.mailing_ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 }
