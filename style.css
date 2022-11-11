@@ -17,9 +17,8 @@
 
     
 
-    body {
+    /* body {
         margin: 0;
-
     }
 
     a {
@@ -30,9 +29,9 @@
         list-style-type: none;
         padding: 0;
         margin: 0;
-    }
+    } */
 
-    .menu {
+    /* .menu {
         display: none;
     }
 
@@ -86,9 +85,9 @@
 
     .svg_navigation:active {
         fill: #2196F3;
-    }
+    } */
 
-    .advertising {
+    /* .advertising {
         display: none;
     }
 
@@ -130,7 +129,7 @@
         font-size: 16px;
         font-family: 'Roboto';
         margin-left: 53px;
-    }
+    } */
 
     .ul_2 {
         padding: 0;
@@ -408,8 +407,6 @@
     .dec ul {
         margin: 0;
         padding: 0;
-        /* display: flex;
-        justify-content: center; */
     }
 
     .adress {
@@ -420,8 +417,6 @@
         line-height: 24px;
         letter-spacing: 0.03em;
         color: #FFFFFF;
-        /* display: flex;
-        justify-content: center; */
         margin-left: 124px;
     }
 
@@ -433,8 +428,6 @@
         line-height: 24px;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
-        /* display: flex;
-        justify-content: center; */
         margin-left: 167px;
     }
 
@@ -450,7 +443,6 @@
         margin-top: 60px;
         display: flex;
         justify-content: center;
-        /* margin-left: 167px; */
         margin-bottom: 20px;
     }
 
@@ -531,7 +523,7 @@
 
 
 @media screen and (min-width: 768px) {
-    h1,
+    /* h1,
     h2,
     h3,
     h4,
@@ -545,7 +537,6 @@
 
     body {
         margin: 0;
-
     }
 
     a {
@@ -569,9 +560,9 @@
 
     .studio {
         margin: 0;
-    }
+    } */
 
-    .li_navigation {
+    /* .li_navigation {
         margin-top: 30px;
         margin-left: 15px;  
     }
@@ -616,9 +607,9 @@
     
     .menu a:hover {
         color: #2196F3;
-    }
+    } */
 
-    .add_info {
+    /* .add_info {
         display: flex;
         justify-content: end;
         align-items: center;
@@ -644,7 +635,7 @@
     .add_info a:hover {
         color: #2196F3;
         fill: #2196F3;
-    }
+    } */
                                                                 /* main */
     .advertising_mobile {
         display: none;
@@ -953,12 +944,12 @@
 
 
 @media screen and (min-width: 1440px) {
-    .li_navigation {
+    /* .li_navigation {
         margin-top: 24px;
         margin-left: 215px;
-    }
+    } */
 
-    .add_info_ul {
+    /* .add_info_ul {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -987,7 +978,7 @@
 
     .add_info_position {
         margin-right: 215px;
-    }
+    } */
 
     .advertising_tablet {
         display: none;
