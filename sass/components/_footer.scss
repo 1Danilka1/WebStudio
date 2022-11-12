@@ -1,0 +1,223 @@
+.footer_ul {
+    margin: 0;
+    padding: 0;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+    }
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        justify-content: start;
+    }
+}
+
+.web_footer {
+    color: #2196F3;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.studio_footer {
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.logo_footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    @media screen and (min-width: 1440px) {
+        margin: 0;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+}
+
+.pp {
+    font-size: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.dec {
+    @media screen and (min-width: 768px) {
+        margin-left: 89px;
+        width: 204px;
+        text-align: center;
+    }
+    @media screen and (min-width: 1440px) {
+        margin: 0;
+        margin-left: 215px;
+        margin-right: 70px;
+    }
+}
+
+.join {
+    @media screen and (min-width: 768px) {
+        margin-right: 89px;
+    }
+}
+
+.adress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-left: 124px;
+    @media screen and (min-width: 768px) {
+        margin: 0;
+        font-size: 13px;
+    }
+}
+
+.information {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 167px;
+    @media screen and (min-width: 768px) {
+        margin: 0;
+        font-size: 13px;
+    }
+}
+
+.join h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    @media screen and (min-width: 768px) {
+        margin-top: 65px;
+    }
+}
+
+.footer_list_icon {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.join svg {
+    fill: #FFFFFF;
+}
+
+.svg_li_2 {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailing {
+    @media screen and (min-width: 1440px) {
+        display: none;
+    }
+}
+
+.mailing h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+.e-mail {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    width: 450px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.subscribe {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 4px;
+    width: 169px;
+    height: 50px;
+    padding-left: 31px;
+    margin-left: 140px;
+    margin-top: 20px;
+    @media screen and (min-width: 768px) {
+        margin: 0;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.subscribe svg {
+    margin-left: 12px;
+}
+
+.mailing_ul {
+    padding: 0;
+    @media screen and (min-width: 768px) {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+.the_end {
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        width: 100%;
+        height: 483px;
+    }
+    @media screen and (min-width: 1440px) {
+        height: 252px;
+        width: 100%; 
+    }
+}
+
+.information_ul {
+    text-align: left;
+}

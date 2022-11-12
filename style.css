@@ -203,11 +203,11 @@
         margin-top: 30px;
     } */
 /* =================================================.what_we_do_2======================================== */
-    .what_we_do_2 {
+    /* .what_we_do_2 {
         display: none;
-    }
+    } */
 
-    .icon {
+    /* .icon {
         height: 2721px;
         background-color: #F5F4FA;
     }
@@ -299,9 +299,9 @@
         width: 20px;
         height: 20px;
         fill: #AFB1B8;
-    }
-
-    .clients {
+    } */
+/* =============================================icon========================== */
+    /* .clients {
         display: none;
     }
 
@@ -364,8 +364,8 @@
 
     .svg_VI {
         padding: 24px 56px 24px 56px;
-    }
-
+    } */
+/* ==========================footer================================= */
     footer {
         height: 603px;
         width: 100%;   
@@ -750,7 +750,7 @@
         width: 342px;
     } */
 
-    .our_team {
+    /* .our_team {
         margin-top: 45px;
     }
 
@@ -769,9 +769,9 @@
 
     .icon {
         height: 1285px;
-    }
+    } */
 
-    .icon_li h3 {
+    /* .icon_li h3 {
         margin-top: 34px;
     }
 
@@ -793,9 +793,9 @@
         margin: 0;
         margin-right: 10px;
         margin-left: 74px;
-    }
+    } */
 
-    .clients_mobile {
+    /* .clients_mobile {
         display: none;
     }
 
@@ -822,9 +822,9 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-    }
+    } */
 
-    .clients .clients_li_position {
+    /* .clients .clients_li_position {
         margin-left: 15px;
     }
 
@@ -847,7 +847,7 @@
     .clients svg:hover {
         fill: #2196F3;
         border: 1px solid #2196F3;
-    }
+    } */
 
     .svg_I {
         padding: 20px 90px 23px 85px;
@@ -873,17 +873,15 @@
         padding: 24px 65px 24px 65px;
     }
 
-    .the_end {
+
+
+    /* .the_end {
         width: 768px;
         width: 100%;
     }
 
     .footer_div {
         margin: 0;
-    }
-    
-    .the_end {
-        height: 483px;
     }
 
     .footer_ul {
@@ -895,9 +893,9 @@
 
     .logo_footer {
         margin: 64px;
-    }
+    } */
 
-    .join {
+    /* .join {
         margin-right: 89px;
     }
 
@@ -914,9 +912,9 @@
         margin-left: 89px;
         width: 204px;
         text-align: center;
-    }
+    } */
 
-    .mailing h2 {
+    /* .mailing h2 {
         margin-top: 66px;
     }
 
@@ -938,7 +936,7 @@
         display: flex;
         justify-content: center;
         align-content: center;
-    }  
+    }   */
 }
 
 
@@ -1066,9 +1064,16 @@
 
 
 
-    .what_we_do_2 {
+    /* .what_we_do_2 {
         display: block;
     }
+
+    .what_we_do_2_ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
     .what_we_do_2 h2 {
         text-align: center;
         margin-top: 94px;
@@ -1078,19 +1083,10 @@
     }
     
     .image_first {
-        width: 370px;
-        margin: 50px 30px 0px 30px;
-    }
-    
-    .image_first_o {
-        margin-left: 210px;
-    }
-    
-    .image_first_f {
-        margin-right: 210px;
-    }
+        margin-right: 30px;
+    } */
 
-    .ppp {
+    /* .ppp {
         margin-top: 94px;
     }
 
@@ -1119,9 +1115,15 @@
     
     .icon .li_first_o {
         margin-left: 215px;
-    }
+    } */
 
-    .clients .clients_li {
+
+
+
+
+
+
+    /* .clients .clients_li {
         margin: 0;
         margin-right: 30px;
     }
@@ -1166,7 +1168,7 @@
 
     .svg_VI {
         padding: 22px 40px;
-    }
+    } */
 /* =========================================================footer============================================================================= */
     .mailing {
         display: none;

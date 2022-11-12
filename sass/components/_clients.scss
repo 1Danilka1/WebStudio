@@ -1,0 +1,112 @@
+.clients {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block; 
+    }
+}
+
+.clients_mobile {
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.clients_mobile h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.clients_ul_mobile {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.clients_li_mobile {
+    margin-right: 30px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.clients_mobile svg {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #AFB1B8;
+
+    &:hover {
+        fill: #2196F3;
+        border: 1px solid #2196F3;   
+    }
+}
+
+.svg_I {
+    padding: 20px 79px 21px 78px;
+}
+
+.svg_II {
+        padding: 20px 80px;
+}
+
+.svg_III {
+    padding: 24px 80px 24px 80px;
+}
+
+.svg_IV {
+    padding: 24px 61px;
+}
+
+.svg_V {
+    padding: 25px 71px 21px 71px;
+}
+
+.svg_VI {
+    padding: 24px 56px 24px 56px;
+}
+
+.clients h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.clients_ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.clients svg {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #AFB1B8;
+
+    &:hover {
+        fill: #2196F3;
+        border: 1px solid #2196F3;
+    }
+}
+
+.clients_li {
+    margin: 0;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
