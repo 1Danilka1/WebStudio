@@ -408,11 +408,6 @@ li {
     flex-direction: row;
   }
 }
-@media screen and (min-width: 768px) {
-  .ul_2_tablet {
-    display: none;
-  }
-}
 
 .title {
   font-family: "Roboto";
@@ -546,11 +541,25 @@ li {
 }
 
 .what_we_do {
-  display: none;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .what_we_do {
+    display: none;
+  }
 }
 @media screen and (min-width: 1440px) {
   .what_we_do {
     display: block;
+  }
+}
+
+.what_we_do_tablet {
+  display: block;
+}
+@media screen and (min-width: 1440px) {
+  .what_we_do_tablet {
+    display: none;
   }
 }
 

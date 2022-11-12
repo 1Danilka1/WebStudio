@@ -6,9 +6,6 @@
         display: flex;
         flex-direction: row;
     }
-    @media screen and (min-width: 768px) {
-        display: none;
-    }
 }
 
 .title {
@@ -119,9 +116,19 @@
 }
 
 .what_we_do {
-    display: none;
+    display: block;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
     @media screen and (min-width: 1440px) {
         display: block;
+    }
+}
+
+.what_we_do_tablet {
+    display: block;
+    @media screen and (min-width: 1440px) {
+        display: none;
     }
 }
 
