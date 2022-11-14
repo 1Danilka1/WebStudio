@@ -24,13 +24,13 @@ body {
     /* width: 1600px; */
 }
 /*=========================================================== header ==============================================================================*/
-.header {
+/* .header {
     height: 60px;
     border-bottom: 1px solid #ececee;
     margin-bottom: 60px;
 }
 
-.contanier {
+.contanier_portfolio {
     display: none;
 }
 
@@ -58,13 +58,13 @@ body {
     font-weight: 700;
 }
 
-.menu ul {
+.menu_portfolio ul {
     display: flex;
     flex-direction: row;
     margin: 32px 0;
 }
 
-.menu a {
+.menu_portfolio a {
     color: #212121;
     margin: 32px 55px 32px 0;
     font-family: 'Roboto';
@@ -72,11 +72,11 @@ body {
     font-weight: 500;
 }
 
-.menu a:hover {
+.menu_portfolio a:hover {
     color: #2196F3;
 }
 
-.li_navigation {
+.li_navigation_portfolio {
     margin-top: 16px;
     margin-left: 15px;
 }
@@ -86,13 +86,13 @@ body {
     margin-right: 23px;
 }
 
-.add_info ul {
+.add_info_portfolio ul {
     display: flex;
     flex-direction: row;
     margin: 32px 0;
 }
 
-.add_info a {
+.add_info_portfolio a {
     font-family: 'Roboto';
     color: #757575;
     margin: 0 50px 0 0;
@@ -100,15 +100,19 @@ body {
     fill: #757575;
 }
 
-.add_info a:hover {
+.add_info_portfolio a:hover {
     color: #2196F3;
     fill: #2196F3;
 }
 
-.add_info svg {
+.add_info_portfolio svg {
     margin-right: 10px;
-}
+} */
 /*================================================================= main ==========================================================================*/
+.images_tablet {
+    display: none;
+}
+
 .navigation_site {
     display: flex;
     flex-direction: row;
@@ -186,12 +190,12 @@ body {
 
 /*=========================================================== footer ==============================================================================*/
 footer {
-      height: 603px;
+    height: 603px;
     width: 480px;   
     background-color: #2F303A;
 }
 
-.footer_ul {
+.footer_ul_portfolio {
     margin: 0;
     padding: 0;
 }
@@ -210,7 +214,7 @@ footer {
     font-weight: 700;
 }
                                                         
-.logo_footer {
+.logo_footer_portfolio {
     display: flex;
     justify-content: center;
     margin-top: 60px;
@@ -223,11 +227,11 @@ footer {
     padding: 0;
 }
                                                         
-.dec ul {
+.dec_portfolio ul {
     margin: 0;
     padding: 0;
 }
-.adress {
+.adress_portfolio {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -238,7 +242,7 @@ footer {
     margin-left: 124px;
 }
                                                         
-.information {
+.information_portfolio {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -249,7 +253,7 @@ footer {
     margin-left: 167px;
 }
                                                         
-.join h3 {
+.join_portfolio h3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -264,7 +268,7 @@ footer {
     margin-bottom: 20px;
 }
                                                         
-.footer_list_icon {
+.footer_list_icon_portfolio {
     margin: 0;
     padding: 0;
     display: flex;
@@ -272,11 +276,11 @@ footer {
     justify-content: center;
 }
                                                         
-.join svg {
+.join_portfolio svg {
     fill: #FFFFFF;
 }
                                                         
-.svg_li_2 {
+.svg_li_2_portfolio {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -287,7 +291,7 @@ footer {
     align-items: center;
 }
                                                         
-.mailing h2 {
+.mailing_portfolio h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -300,7 +304,7 @@ footer {
     margin-top: 60px;
 }
                                                         
-.e-mail {
+.e-mail_portfolio {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -311,7 +315,7 @@ footer {
     margin-top: 15px;
 }
                                                         
-.subscribe {
+.subscribe_portfolio {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -331,17 +335,17 @@ footer {
     margin-top: 20px;
 }
                                                         
-.subscribe svg {
+.subscribe_portfolio svg {
     margin-left: 12px;
 }
                                                         
-.mailing_ul {
+.mailing_ul_portfolio {
     padding: 0;
 }
 
 @media screen and (min-width:768px) {
 /* ======================================================= header ========================================================================== */
-    .contanier_mobile {
+    /* .contanier_mobile {
         display: none;
     }
 
@@ -349,7 +353,7 @@ footer {
         height: 80px;
     }
 
-    .contanier {
+    .contanier_portfolio {
         height: 80px;
         display: block;
         display: flex;
@@ -357,34 +361,29 @@ footer {
         justify-content: space-around;
     }
 
-    .li_navigation {
+    .li_navigation_portfolio {
         margin-top: 30px;
     }
 
-    .menu a {
-        margin: 0;
+    .menu_portfolio {
+        margin-left: 200px;
     }
 
-    .menu .menu_ul {
-        margin: 0;
-        margin-top: 34px;
-    }
-
-    .menu .menu_a {
+    .menu_portfolio .menu_a {
         margin: 0;
         margin-right: 57px;
     }
 
-    .add_info .add_info_ul {
+    .add_info_portfolio .add_info_ul {
         display: flex;
         flex-direction: column;
         margin: 0;
-        margin-top: 23px;
+        margin-top: 22px;
     }
 
-    .add_info a {
+    .add_info_portfolio a {
         margin: 0;
-    }
+    } */
 /* ============================================================== main ====================================================================== */
     .navigation_site {
         display: flex;
@@ -436,65 +435,65 @@ footer {
         margin: 0 30px 30px 15px;
     }
 /* =================================================== footer ====================================================================================== */
-    .the_end {
+    .the_end_portfolio {
         width: 100%;
     }
 
-    .footer_div {
+    .footer_div_portfolio {
         margin: 0;
     }
 
-    .the_end {
+    .the_end_portfolio {
         height: 483px;
     }
 
-    .footer_ul {
+    .footer_ul_portfolio {
         display: flex;
         justify-content: space-between;
         padding: 0;
         margin: 0;
     }
 
-    .logo_footer {
-        margin: 64px;
+    .logo_footer_portfolio {
+        margin-top: 64px;
     }
 
-    .join {
+    .join_portfolio {
         margin-right: 89px;
     }
 
-    .join h3 {
+    .join_portfolio h3 {
         margin-top: 65px;
     }
 
-    .adress, .information {
+    .adress_portfolio, .information_portfolio {
         margin: 0;
         font-size: 13px;
     }
 
-    .dec {
+    .dec_portfolio {
         margin-left: 89px;
         width: 204px;
         text-align: center;
     }
 
-    .mailing h2 {
+    .mailing_portfolio h2 {
         margin-top: 66px;
     }
 
-    .e-mail {
+    .e-mail_portfolio {
         margin: 0;
         margin-top: 21px;
     }
 
-    .subscribe {
+    .subscribe_portfolio {
         margin: 0;
         margin-top: 20px;
         display: flex;
         justify-content: center;
     }
 
-    .mailing_ul {
+    .mailing_ul_portfolio {
         padding: 0;
         margin: 0;
         display: flex;
@@ -504,15 +503,24 @@ footer {
 }
 
 @media screen and (min-width:1440px) {
-    .add_info .add_info_ul {
+    /* .header_navigation .li_navigation_portfolio {
+        margin-left: 150px;
+    }
+
+    .add_info_portfolio .add_info_ul {
         display: flex;
         flex-direction: row;
         margin-top: 32px;
     }
 
-    .add_info li {
+    .add_info_portfolio li {
         margin-right: 50px;
     }
+
+    .menu_portfolio {
+        display: flex;
+        align-content: center;
+    } */
 /* ================================================================= main ======================================================================== */
     .images_tablet {
         display: none;
@@ -560,21 +568,21 @@ footer {
         margin-bottom: 94px;
     }
 /* ===================================================== footer ================================================================================ */
-    .the_end {
+    .the_end_portfolio {
         height: 252px;
     }
 
-    .logo_footer {
+    .logo_footer_portfolio {
         margin: 0;
         margin-top: 60px;
         margin-bottom: 20px;
     }
     
-    .mailing {
+    .mailing_portfolio {
         display: none;
     }
 
-    .join {
+    .join_portfolio {
         display: none;
     }
 }

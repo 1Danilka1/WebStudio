@@ -1,0 +1,9 @@
+.header {
+    height: 60px;
+    border-bottom: 1px solid #ececee;
+    margin-bottom: 60px;
+    @media screen and (min-width:768px) {
+        height: 80px;
+    }
+
+}

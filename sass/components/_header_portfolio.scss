@@ -1,0 +1,135 @@
+.contanier_portfolio {
+    display: none;
+}
+
+.contanier_portfolio {
+    @media screen and (min-width:768px) {
+        height: 80px;
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.contanier_mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+}
+
+
+.li_navigation_mobile {
+    margin-top: 16px;
+}
+
+.web {
+    color: #2196F3;
+    font-size: 26px;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.studio {
+    color: #000000;
+    font-size: 26px;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.menu_portfolio {
+    @media screen and (min-width:768px) {
+        margin-left: 200px;
+    }
+    @media screen and (min-width:1440px) {
+        display: flex;
+        align-content: center;
+    }
+}
+
+.menu_portfolio ul {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 0;
+}
+
+.menu_portfolio .menu_a {
+    @media screen and (min-width:768px) {
+        margin: 0;
+        margin-right: 57px;
+    }
+}
+
+.menu_portfolio a {
+    color: #212121;
+    margin: 32px 55px 32px 0;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu_portfolio a:hover {
+    color: #2196F3;
+}
+
+.li_navigation_portfolio {
+    margin-top: 16px;
+    margin-left: 15px;
+    @media screen and (min-width:768px) {
+        margin-top: 30px;
+    }
+}
+
+.li_navigation_svg {
+    margin-top: 22px;
+    margin-right: 23px;
+}
+
+.add_info_portfolio ul {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 0;
+    @media screen and (min-width:768px) {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 22px;
+    }
+    @media screen and (min-width:1440px) {
+        display: flex;
+        flex-direction: row;
+        margin-top: 32px;
+    }
+}
+
+.add_info_portfolio a {
+    font-family: 'Roboto';
+    color: #757575;
+    margin: 0 50px 0 0;
+    font-size: 14px;
+    fill: #757575;
+
+    &:hover {
+    color: #2196F3;
+    fill: #2196F3;
+    }
+}
+
+.add_info_portfolio li {
+    @media screen and (min-width:1440px) {
+        margin-right: 50px;
+    }
+}
+
+.add_info_portfolio svg {
+    margin-right: 10px;
+}
+
+.header_navigation .li_navigation_portfolio {
+    @media screen and (min-width:1440px) {
+        margin-left: 150px;
+    }
+}
