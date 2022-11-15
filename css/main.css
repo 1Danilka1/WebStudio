@@ -1374,4 +1374,223 @@ body {
   .header_navigation .li_navigation_portfolio {
     margin-left: 150px;
   }
+}
+
+.images_tablet {
+  display: none;
+}
+
+.navigation_site {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .navigation_site {
+    display: flex;
+    justify-content: center;
+    height: 31px;
+    margin-bottom: 30px;
+  }
+}
+
+.navigation_site li {
+  margin-bottom: 15px;
+}
+
+.navigation_site_a {
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding: 6px 23px;
+  margin-right: 8px;
+  margin-bottom: 15px;
+}
+.navigation_site_a:hover {
+  color: #FFFFFF;
+  background-color: #2196F3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.navigation_site .nav_site_pos {
+  margin-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .navigation_site .nav_site_pos {
+    margin: 0;
+    margin-right: 8px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .navigation_site .nav_site_pos {
+    margin: 0;
+    margin-right: 8px;
+  }
+}
+
+.images {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .images {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .images_mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .images_tablet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .images_tablet {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .li_images_tablet {
+    width: 354px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .images_tablet h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin: 20px 0 4px 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .images_tablet p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: 0 0 20px 24px;
+  }
+}
+
+.li_images_mobile {
+  width: 450px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+}
+
+.li_images_mobile_pos {
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .li_images_tablet_pos {
+    margin: 0 30px 30px 15px;
+  }
+}
+
+.li_images_mobile h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin: 20px 0 4px 24px;
+}
+
+.li_images_mobile p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 0 0 20px 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  .li_images {
+    width: 370px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.li_images h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin: 20px 0 4px 24px;
+}
+
+.li_images p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 0 0 20px 24px;
+}
+
+.li_images_position {
+  margin-bottom: 94px;
+}
+
+footer {
+  height: 603px;
+  width: 480px;
+  background-color: #2F303A;
+}
+@media screen and (min-width: 768px) {
+  footer {
+    width: 100%;
+    height: 483px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  footer {
+    height: 252px;
+  }
 }/*# sourceMappingURL=main.css.map */

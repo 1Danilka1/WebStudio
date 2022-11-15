@@ -109,7 +109,7 @@ body {
     margin-right: 10px;
 } */
 /*================================================================= main ==========================================================================*/
-.images_tablet {
+/* .images_tablet {
     display: none;
 }
 
@@ -147,9 +147,9 @@ body {
     color:#FFFFFF;
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
-.images {
+/* .images {
     display: none;
 }
 
@@ -185,15 +185,15 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
     margin: 0 0 20px 24px;
-}
+} */
 
 
 /*=========================================================== footer ==============================================================================*/
-footer {
+/* footer {
     height: 603px;
     width: 480px;   
     background-color: #2F303A;
-}
+} */
 
 .footer_ul_portfolio {
     margin: 0;
@@ -385,14 +385,14 @@ footer {
         margin: 0;
     } */
 /* ============================================================== main ====================================================================== */
-    .navigation_site {
+    /* .navigation_site {
         display: flex;
         justify-content: center;
         height: 31px;
         margin-bottom: 30px;
-    }
+    } */
 
-    .images_mobile {
+    /* .images_mobile {
         display: none;
     }
 
@@ -433,17 +433,14 @@ footer {
 
     .li_images_tablet_pos {
         margin: 0 30px 30px 15px;
-    }
+    } */
 /* =================================================== footer ====================================================================================== */
-    .the_end_portfolio {
-        width: 100%;
-    }
-
     .footer_div_portfolio {
         margin: 0;
     }
-
+    
     .the_end_portfolio {
+        width: 100%;
         height: 483px;
     }
 
@@ -522,7 +519,7 @@ footer {
         align-content: center;
     } */
 /* ================================================================= main ======================================================================== */
-    .images_tablet {
+    /* .images_tablet {
         display: none;
     }
 
@@ -566,7 +563,7 @@ footer {
 
     .li_images_position {
         margin-bottom: 94px;
-    }
+    } */
 /* ===================================================== footer ================================================================================ */
     .the_end_portfolio {
         height: 252px;
