@@ -1,0 +1,210 @@
+.web_footer {
+    color: #2196F3;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+                                                        
+.studio_footer {
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+                                                        
+.logo_footer_portfolio {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    @media screen and (min-width:768px) {
+        margin-top: 64px;
+    }
+    @media screen and (min-width:1440px) {
+        margin: 0;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+}
+                                                        
+.pp {
+    font-size: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.adress_portfolio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-left: 124px;
+}
+                                                        
+.information_portfolio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 167px;
+}
+
+.join_portfolio {
+    @media screen and (min-width:768px) {
+        margin-right: 89px;
+    }
+}
+                                                        
+.join_portfolio h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    @media screen and (min-width:768px) {
+        margin-top: 65px;
+    }
+}
+                                                        
+.footer_list_icon_portfolio {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+                                                        
+.join_portfolio svg {
+    fill: #FFFFFF;
+}
+                                                        
+.svg_li_2_portfolio {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+                                                        
+.mailing_portfolio h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 60px;
+    @media screen and (min-width:768px) {
+        margin-top: 66px;
+    }
+}
+
+.mailing_ul_portfolio {
+    @media screen and (min-width:768px) {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
+                                                        
+.e-mail_portfolio {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    width: 450px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    @media screen and (min-width:768px) {
+        margin: 0;
+        margin-top: 21px;
+    }
+}
+                                                        
+.subscribe_portfolio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 4px;
+    width: 169px;
+    height: 50px;
+    padding-left: 31px;
+    margin-left: 140px;
+    margin-top: 20px;
+    @media screen and (min-width:768px) {
+        margin: 0;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
+                                                        
+.subscribe_portfolio svg {
+    margin-left: 12px;
+}
+
+.footer_ul_portfolio {
+    @media screen and (min-width:768px) {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.adress_portfolio, .information_portfolio {
+    @media screen and (min-width:768px) {
+        margin: 0;
+        font-size: 13px;
+    }
+}
+
+.dec_portfolio {
+    @media screen and (min-width:768px) {
+        margin-left: 89px;
+        width: 204px;
+        text-align: center;
+    }
+}
+
+.mailing_portfolio {
+    @media screen and (min-width:1440px) {
+        display: none;
+    }
+}
+
+.join_portfolio {
+    @media screen and (min-width:1440px) {
+        display: none;
+    }
+}
